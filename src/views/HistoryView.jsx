@@ -37,7 +37,7 @@ export default function HistoryView({ navigate }) {
         </button>
       </div>
 
-      {/* Search + filter bar */}
+      
       <form onSubmit={handleSearch} className="flex gap-3 mb-5">
         <input
           type="text"
@@ -61,7 +61,7 @@ export default function HistoryView({ navigate }) {
           onDelete={handleDelete}
         />
 
-        {/* Pagination */}
+        
         {pagination.totalPages > 1 && (
           <div className="flex items-center justify-center gap-2 mt-5 pt-4 border-t border-gray-100">
             <button

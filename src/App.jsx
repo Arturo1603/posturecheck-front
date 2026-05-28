@@ -27,7 +27,7 @@ export default function App() {
 
   if (loading) return <Loader fullscreen />
 
-  // Public screens
+
   if (!user) {
     if (screen === 'auth') return <AuthView navigate={navigate} />
     return <LandingView navigate={navigate} />
@@ -53,7 +53,7 @@ export default function App() {
     <div className="flex min-h-screen bg-gray-50">
       <Sidebar activeScreen={screen} navigate={navigate} />
 
-      {/* Main content — offset for sidebar on desktop, padding-bottom for mobile nav */}
+      
       <main className="flex-1 md:ml-56 p-4 md:p-8 pb-20 md:pb-8 min-h-screen">
         {screen === 'welcome'          && <WelcomeView         navigate={navigate} />}
         {screen === 'evaluation-zone'  && <EvaluationZoneView  navigate={navigate} />}

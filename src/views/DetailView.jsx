@@ -65,7 +65,7 @@ export default function DetailView({ evaluationId, navigate }) {
         </div>
       </div>
 
-      {/* Recomendaciones */}
+      
       {ev.recomendaciones?.length > 0 && (
         <div>
           <h2 className="font-display text-lg font-bold text-gray-900 mb-3">Recomendaciones</h2>

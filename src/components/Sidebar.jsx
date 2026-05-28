@@ -16,15 +16,15 @@ export default function Sidebar({ activeScreen, navigate }) {
 
   return (
     <>
-      {/* DESKTOP sidebar */}
+      
       <aside className="hidden md:flex fixed top-0 left-0 w-56 h-screen bg-white border-r border-gray-100 flex-col py-5 px-3 z-20">
-        {/* Logo */}
+       
         <div className="flex items-center gap-2.5 px-3 mb-6">
           <div className="w-8 h-8 bg-purple rounded-lg flex items-center justify-center text-white font-display font-bold text-base flex-shrink-0">P</div>
           <span className="font-display font-bold text-gray-900 text-base">PostureCheck</span>
         </div>
 
-        {/* Nav */}
+       
         <nav className="flex flex-col gap-0.5 flex-1 overflow-y-auto scrollbar-hide">
           {navItems.map(item => (
             <button
@@ -42,7 +42,7 @@ export default function Sidebar({ activeScreen, navigate }) {
           ))}
         </nav>
 
-        {/* User */}
+     
         <div className="border-t border-gray-100 pt-4 px-2 mt-2">
           <div className="flex items-center gap-2 mb-2">
             <div className="w-8 h-8 rounded-full bg-purple-light text-purple flex items-center justify-center text-xs font-bold flex-shrink-0">
@@ -62,7 +62,7 @@ export default function Sidebar({ activeScreen, navigate }) {
         </div>
       </aside>
 
-      {/* MOBILE bottom nav */}
+      
       <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 z-20 flex justify-around items-center px-2 py-2 safe-area-inset-bottom">
         {navItems.slice(0, 5).map(item => (
           <button

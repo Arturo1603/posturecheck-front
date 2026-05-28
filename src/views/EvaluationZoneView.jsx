@@ -20,12 +20,12 @@ export default function EvaluationZoneView({ navigate }) {
 
       <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm">
         <div className="flex flex-col md:flex-row gap-8 items-start">
-          {/* Body diagram */}
+         
           <div className="flex justify-center md:justify-start w-full md:w-auto">
             <BodyDiagram selected={selected} onSelect={setSelected} />
           </div>
 
-          {/* Zone list */}
+        
           <div className="flex-1 w-full">
             <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Selecciona una zona</p>
             <div className="flex flex-col gap-2">

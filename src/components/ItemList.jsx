@@ -24,7 +24,7 @@ export default function ItemList({ evaluaciones, onView, onEdit, onDelete, loadi
 
   return (
     <>
-      {/* Desktop table */}
+     
       <div className="hidden md:block overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
@@ -65,7 +65,7 @@ export default function ItemList({ evaluaciones, onView, onEdit, onDelete, loadi
         </table>
       </div>
 
-      {/* Mobile cards */}
+   
       <div className="md:hidden flex flex-col gap-3">
         {evaluaciones.map(ev => (
           <div key={ev.id} className="bg-white rounded-xl border border-gray-100 p-4 shadow-sm">

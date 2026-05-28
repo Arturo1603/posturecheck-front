@@ -16,7 +16,7 @@ export default function RecommendationsView({ zone, evaluation, navigate }) {
 
   return (
     <div className="max-w-xl fade-in">
-      {/* Success banner */}
+      
       <div className="flex items-center gap-3 bg-green-50 border border-green-200 rounded-xl px-4 py-3 mb-6">
         <span className="w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">✓</span>
         <div>

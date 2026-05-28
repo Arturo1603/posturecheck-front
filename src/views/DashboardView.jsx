@@ -46,7 +46,6 @@ export default function DashboardView({ navigate }) {
         ))}
       </div>
 
-      {/* Chart */}
       <div className="bg-white rounded-xl border border-gray-100 p-5 mb-5 shadow-sm">
         <h3 className="text-sm font-semibold text-gray-900 mb-4">Evolución del dolor (últimos 7 días)</h3>
         {chart.length > 0 ? (
@@ -68,9 +67,9 @@ export default function DashboardView({ navigate }) {
         )}
       </div>
 
-      {/* Bottom grid */}
+     
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-        {/* Zonas frecuentes */}
+       
         <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
           <h3 className="text-sm font-semibold text-gray-900 mb-3">Zonas frecuentes</h3>
           {zonas.length > 0 ? (
@@ -87,7 +86,7 @@ export default function DashboardView({ navigate }) {
           )}
         </div>
 
-        {/* Última evaluación */}
+      
         <div className="bg-white rounded-xl border border-gray-100 p-5 shadow-sm">
           <h3 className="text-sm font-semibold text-gray-900 mb-3">Última evaluación</h3>
           {stats?.ultima_fecha ? (

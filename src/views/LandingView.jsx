@@ -1,7 +1,7 @@
 export default function LandingView({ navigate }) {
   return (
     <div className="min-h-screen bg-white">
-      {/* Nav */}
+     
       <nav className="flex items-center justify-between px-6 md:px-12 py-4 border-b border-gray-100">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-purple rounded-lg flex items-center justify-center text-white font-display font-bold">P</div>
@@ -19,7 +19,7 @@ export default function LandingView({ navigate }) {
         </div>
       </nav>
 
-      {/* Hero */}
+      
       <section className="px-6 md:px-12 py-16 md:py-24 flex flex-col md:flex-row items-center gap-12 max-w-6xl mx-auto">
         <div className="flex-1">
           <h1 className="font-display text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
@@ -54,7 +54,7 @@ export default function LandingView({ navigate }) {
           </div>
         </div>
 
-        {/* Hero illustration */}
+        
         <div className="flex-1 flex justify-center">
           <div className="relative">
             <div className="w-64 h-72 bg-purple-light rounded-2xl flex items-center justify-center">
@@ -71,7 +71,7 @@ export default function LandingView({ navigate }) {
                 <rect x="72" y="128" width="16" height="72" rx="8" fill="#6C63FF"/>
               </svg>
             </div>
-            {/* Floating badges */}
+           
             <div className="absolute -top-3 -right-6 bg-white rounded-xl px-3 py-2 shadow-lg border border-gray-100 text-xs font-medium text-gray-700">
               🎯 Evaluación personalizada
             </div>
@@ -82,7 +82,7 @@ export default function LandingView({ navigate }) {
         </div>
       </section>
 
-      {/* Features */}
+     
       <section className="px-6 md:px-12 py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
@@ -99,7 +99,7 @@ export default function LandingView({ navigate }) {
         </div>
       </section>
 
-      {/* CTA */}
+     
       <section className="px-6 md:px-12 py-16 text-center">
         <h2 className="font-display text-3xl font-bold text-gray-900 mb-4">
           Empieza hoy, es gratis

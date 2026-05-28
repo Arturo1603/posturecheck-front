@@ -18,7 +18,7 @@ export default function AuthView({ navigate }) {
 
   return (
     <div className="min-h-screen flex">
-      {/* Left panel — hidden on mobile */}
+      
       <div className="hidden lg:flex flex-1 bg-gradient-to-br from-purple-light via-purple-light to-purple/10 flex-col justify-between p-10">
         <div className="flex items-center gap-2.5">
           <div className="w-9 h-9 bg-purple rounded-xl flex items-center justify-center text-white font-display font-bold text-lg">P</div>
@@ -38,20 +38,20 @@ export default function AuthView({ navigate }) {
             </div>
           ))}
         </div>
-        <p className="text-xs text-gray-400">© 2024 PostureCheck</p>
+        <p className="text-xs text-gray-400">© 2026 PostureCheck</p>
       </div>
 
-      {/* Right panel */}
+      
       <div className="flex-1 lg:max-w-md flex items-center justify-center p-6 bg-white">
         <div className="w-full max-w-sm">
 
-          {/* Mobile logo */}
+        
           <div className="lg:hidden flex items-center gap-2 mb-8">
             <div className="w-8 h-8 bg-purple rounded-lg flex items-center justify-center text-white font-display font-bold">P</div>
             <span className="font-display font-bold text-gray-900">PostureCheck</span>
           </div>
 
-          {/* Tabs */}
+          
           <div className="flex mb-6 border-b border-gray-200">
             {[['login','Iniciar sesión'], ['register','Crear cuenta']].map(([m, l]) => (
               <button key={m} onClick={() => setMode(m)}
@@ -104,7 +104,7 @@ export default function AuthView({ navigate }) {
             </div>
 
             <div className="grid grid-cols-2 gap-3">
-              {['Google', 'Apple'].map(p => (
+              {['Google', 'Manzanita'].map(p => (
                 <button key={p} type="button"
                   className="flex items-center justify-center gap-2 py-2.5 border border-gray-200 rounded-xl text-sm text-gray-600 hover:bg-gray-50 transition font-medium">
                   {p === 'Google' ? '🇬' : '🍎'} {p}

@@ -30,7 +30,7 @@ export default function ItemForm({ initialData, onSubmit, onCancel, loading }) {
     <form onSubmit={handleSubmit}>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-        {/* Left — body diagram + zone list */}
+        
         <div className="flex flex-col items-center gap-4">
           <BodyDiagram selected={form.zona} onSelect={(z) => set('zona', z)} />
           {errors.zona && <p className="text-xs text-red-500">{errors.zona}</p>}
@@ -53,7 +53,7 @@ export default function ItemForm({ initialData, onSubmit, onCancel, loading }) {
           </div>
         </div>
 
-        {/* Right — form fields */}
+     
         <div className="flex flex-col gap-5">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">

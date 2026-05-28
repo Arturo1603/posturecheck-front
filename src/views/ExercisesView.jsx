@@ -32,7 +32,7 @@ export default function ExercisesView() {
         <p className="text-gray-500 text-sm mt-1">Biblioteca completa de ejercicios por zona</p>
       </div>
 
-      {/* Filter tabs */}
+
       <div className="flex gap-2 flex-wrap mb-5">
         <button onClick={() => setFilter('all')}
           className={`px-3 py-1.5 rounded-lg text-xs font-medium transition
